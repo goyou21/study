@@ -69,4 +69,22 @@ alt 속성의 경우 이미지 대체텍스트 역할입니다.
 ```html
 <p><img src="./asset/snowman.png" alt="눈내리는 풍경과 눈사람" width="450"></p>
 ```
-![멀티캠퍼스](http://el.multicampus.com/landing/images/2016/common/logo.gif)
+![멀티캠퍼스]
+(http://el.multicampus.com/landing/images/2016/common/logo.gif)  
+
+## CSS 스타일  
+1. 상속  
+2. 겹침  
+3. 우선순위  
+> CSS에서는 부모 요소에 지정한 스타일이 자식 요소에게 적용되는 현상을 상속이라고 부른다. 그러나 모든 속성이 상속되는 것은 아니다.   
+> 겹침이란? 하나의 요소에 동일한 속성에 서로 다른 값이 적용되는 현상을 의미하며 기본적으로 구체성이 동일한 경우에는 가장 마지막에서 선언한 스타일이 우선적으로 적용됩니다.   
+> 우선순위는 구체성에 따라 달라집니다. 이때 요소 선택자는 구체성 점수가 1점, 클래스 선택자는 구체성 점수가 10점, id 선택자는 구체성 점수가 100점 입니다.   
+
+### 텍스트 관련 속성  
+* font-family : 글꼴 지정  
+* font-size : 글자 크기  
+* font-weight : 글꼴 굵기  
+* font-style : 글자의 기울임꼴  
+* line-height: 단락 내에서 한줄의 높이를 지정  
+* text-decoration : 밑줄 지정 및 삭제  
+* text-shadow : CSS3 추가된 속성으로 글자의 그림자 지정  
