@@ -1,0 +1,53 @@
+@charset "utf-8";
+body{
+  margin:0;
+}
+
+a:link{
+  color:inherit;
+  text-decoration: none;
+}
+h1 {
+  /* background-color: yellow; */
+  margin: 0;
+  text-align:center;
+  padding:20px 0;
+}
+.menu{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow:hidden;
+}
+.menu li{
+  float : left;
+  width :25%;
+  padding: 100px 0;
+  text-align:center;
+}
+
+.item1{
+  background-color: lime;
+  float:left;
+}
+.item2{
+  background-color: orange;
+  float:left;
+}
+.item3{
+  background-color: aquamarine;
+  float:left;
+}
+.item4{
+  background-color: yellow;
+  float:left;
+}
+.menu a{
+  display : block;
+  padding : 100px 0;
+}
+.menu a:hover, .menu a:focus{
+  background-color: pink;
+  font-weight: bold;
+  font-size:1.5em;
+}
