@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.box1, .box2{
+  background-color: #ff0;
+  width : 500px;
+  height : 200px;
+  overflow : hidden;
+  border: 10px dashed blue;
+  padding : 10px 20px 30px 40px;
+  box-sizing : border-box;
+}
+
+.box1{
+  margin: 50px auto 50px auto;
+}
+.box2{
+  margin: 70px auto;
+}
+
+.box3{
+  background-color: #f0f;
+}
+.box4{
+  background-color: #0ff;
+}
+.box5{
+  width :200px;
+  height :200px;
+  line-height: 70px;
+  background : orange;
+  border: 5px solid black;
+  margin: 0 50px 0 auto;
+  border-radius :50%;
+  text-align:center;
+}
